@@ -40,6 +40,9 @@ def twoNumberSum_s1(array, targetSum):
                 return firstnumber, secondnumber
     return []
 
+
+
+
 if __name__ == "__main__":
     array = [3,5,-4, 8, 11, 1, -1, 6]
     targetsum = 10
