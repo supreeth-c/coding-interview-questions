@@ -81,6 +81,8 @@ def deleting_dict(dict):
 
 if __name__ == '__main__':
     dict = {'Name': 'Tom', 'Age': 17, 'Class': 'Second Year'}
+    
+    #Calling a list of functions using list comprehension
     functions = [accessing_dict,updating_dict,get_keys_value_dict,iterate_keys,iterate_items,iterate_values, pop_item, delete_key,deleting_dict]
     [function(dict) for function in functions]
 
