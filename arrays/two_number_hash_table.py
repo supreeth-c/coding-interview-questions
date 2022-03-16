@@ -12,7 +12,7 @@ Rule : You can't add a single integer to itself in order to obtain the traget su
 def twoNumberSum(array, targetSum):
     """
     The problem comes down to this : targetsum = x+y 
-    So, since I know the tragetsum, I am trying ot find out the value of x 
+    So, since I know the tragetsum, I am trying to find out the value of x 
     which can be formed into a equation 'x = targetsum-y'
     
     
